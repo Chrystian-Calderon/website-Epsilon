@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Staatliches&display=swap');
+
+:root {
+    --font-staatliches: "Staatliches", serif;
+    --font-bebas-neue: "Bebas Neue", serif;
+    --font-be-vietnam-pro: "Be Vietnam Pro", serif;
+    --font-inter: "Inter", serif;
+    --clr-a: #252932;
+    --clr-b: #326B7E;
+    --clr-c: #6DA6B9;
+    --clr-d: #A9C3D0;
+    --clr-e: #D8D0CB;
+    --clr-r: #FFCE2E;
+    --clr-s: #1B1B1E;
+}
+
+/* .inter-<uniquifier> {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
+
