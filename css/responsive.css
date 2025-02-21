@@ -1,0 +1,23 @@
+/* tablet */
+
+/* desktop */
+@media (min-width: 1024px) {
+  /* header */
+  header {padding: 10px;}
+  header .hamburger {display: none;}
+  header nav {
+    width: auto;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  header nav li {
+    display: inline-block;
+  }
+  header nav li > a {
+    text-decoration: none;
+    color: var(--clr-e);
+    font-family: var(--font-inter);
+  }
+  header nav li:hover {font-weight: 700;}
+}
