@@ -171,3 +171,77 @@ section.banner > .info > p {
 .services > .services-cards > .card p i {color: var(--clr-r); font-style: normal;}
 .services > .services-cards > .card h3 {font-size: 22px; height: 96px;}
 .services > .services-cards > .card .img img {width: 100%; height: 100%; object-fit: cover;}
+
+/* benefits */
+section.benefits {background: linear-gradient(var(--clr-b), var(--clr-s)); padding: 80px 0;}
+section.benefits > h2 {
+    background: linear-gradient(to right, transparent 1%, var(--clr-a) 10%, var(--clr-a) 90%, transparent 99%);
+    color: var(--clr-e);
+    text-align: center;
+    font-family: var(--font-staatliches);
+    font-size: 58px;
+    margin-bottom: 60px;
+}
+section.benefits > .benefits-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0 40px;
+}
+section.benefits > .benefits-box > .img {grid-column: 1/2;}
+section.benefits > .benefits-box > .img img {width: 100%; height: 100%; border-radius: 15px;}
+section.benefits > .benefits-box > .benefits-info {grid-column: 2/5; background-color: var(--clr-s); padding: 40px 0; border-radius: 15px;}
+section.benefits > .benefits-box .icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+section.benefits > .benefits-box .icons > .icon {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+section.benefits > .benefits-box .icons > .icon > .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-e);
+    border-radius: 50%;
+    z-index: 2;
+}
+section.benefits > .benefits-box .icons > .icon > .circle-b {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-b);
+    border-radius: 50%;
+    z-index: 1;
+}
+section.benefits > .benefits-box .icons > .icon h3 {font-family: var(--font-be-vietnam-pro); font-size: 19px; position: relative; z-index: 3;}
+section.benefits > .benefits-box .icons > .icon > .img {width: 80px; height: 80px; position: relative; z-index: 3;}
+section.benefits > .benefits-box .icons > .icon > .img img {width: 100%; height: 100%}
+section.benefits > .benefits-box > .benefits-info .benefits-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+section.benefits > .benefits-box > .benefits-info .benefits-options .benefits-option {
+    background-color: var(--clr-d);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+section.benefits > .benefits-box > .benefits-info .benefits-options .benefits-option h4,
+section.benefits > .benefits-box > .benefits-info .benefits-options .benefits-option p {font-family: var(--font-be-vietnam-pro); font-size: 15px;}
+section.benefits > .benefits-box > .benefits-info .benefits-options .benefits-option h4 {font-size: 17px;}
