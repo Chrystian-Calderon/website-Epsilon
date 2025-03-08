@@ -128,9 +128,9 @@ section.banner > .info > p {
     bottom: 0;
     z-index: 1;
 }
-.services > .wave > img {width: 100%;}
+.services > .wave > img {width: 100%; height: 100%; display: block;}
 .services h2 {
-    background: linear-gradient(to right, var(--clr-e) 10%, var(--clr-a) 15%, var(--clr-a) 85%, var(--clr-e) 90%);
+    background: linear-gradient(to right, var(--clr-e) 5%, var(--clr-a) 15%, var(--clr-a) 85%, var(--clr-e) 95%);
     text-align: center;
     color: var(--clr-e);
     font-family: var(--font-staatliches);
@@ -142,7 +142,7 @@ section.banner > .info > p {
     font-family: var(--font-be-vietnam-pro);
     font-size: 22px;
     text-align: center;
-    margin: 0 auto;
+    margin: 40px auto;
     max-width: 800px;
     position: relative;
     z-index: 2;
